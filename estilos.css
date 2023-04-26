@@ -1,0 +1,78 @@
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    background-color: powderblue;
+    margin: 0px;
+    padding: 0.5em;
+    text-align: center;
+}
+h2{
+    margin: 1em;
+    padding: 0px;
+    text-align: center;
+}
+header{
+    width: 100%;
+    min-height: fit-content;
+    text-align: center;
+    background-color: cadetblue;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+.litipo1{
+    display: inline-block;
+    padding: 1em;
+    margin: 0px;
+    background-color: teal;
+}
+footer{
+    padding: 3em;
+    margin: 0px;
+    background-color: powderblue;
+    display: flex;
+    justify-content: end;
+    margin-top: auto;
+}
+.headertipo1 {
+    font-size: 2em;
+}
+.botontipo1{
+    font-size: 1em;
+}
+.spantipo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.25em;
+}
+.divtipo1{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+p{
+    margin: 0.2em;
+}
+.normal{
+    display: flex;
+    justify-content: left;
+}
+@media (min-width: 600px){
+.Emanuel-Rosas {width: 13.35em;
+    height: 13.7em;
+    background: url(messi-pic.jpg);
+    border: solid 0.25em;
+    margin: 1em;
+    padding: 0px;
+    border-radius: 6.675em;}
+}
