@@ -19,18 +19,24 @@ h2{
 }
 header{
     width: 100%;
-    min-height: fit-content;
+    height: 3.5em;
+    min-height: auto;
     text-align: center;
     background-color: cadetblue;
 }
 ul{
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 0px;
     margin: 0px;
 }
 .litipo1{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5em;
+    height: 1.5em;
     padding: 1em;
     margin: 0px;
     background-color: teal;
@@ -48,6 +54,8 @@ footer{
 }
 .botontipo1{
     font-size: 1em;
+    height: 100%;
+    width: 100%;
 }
 .spantipo1{
     display: flex;
@@ -66,6 +74,9 @@ p{
 .normal{
     display: flex;
     justify-content: left;
+}
+a{
+    font-size: 0.75em;
 }
 @media (min-width: 600px){
 .Emanuel-Rosas {width: 13.35em;
